@@ -1,69 +1,66 @@
-Sure! Based on the code you shared, here’s a professional **README.md** tailored for your Kotlin Android music app:
 
 ---
 
 # 🎵 MusicApp – Kotlin Music Player
 
-**MusicApp** is a modern and intuitive music player built entirely in Kotlin for Android. It allows users to browse, play, and manage audio files stored on their device with a sleek, interactive interface and customizable playback options.
+![MusicApp Banner](https://user-images.githubusercontent.com/your-username/your-banner-image.png)
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-007ACC?style=flat\&logo=kotlin\&logoColor=white)](https://kotlinlang.org/)
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=flat\&logo=android\&logoColor=white)](https://developer.android.com/)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat\&logo=android\&logoColor=white)](https://developer.android.com/jetpack/compose)
+[![ExoPlayer](https://img.shields.io/badge/ExoPlayer-F4511E?style=flat\&logo=android\&logoColor=white)](https://exoplayer.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+---
+
+**MusicApp** is a modern, lightweight music player for Android built entirely in Kotlin. Browse, play, and manage your device’s audio files with a sleek, interactive interface.
 
 ---
 
 ## **Features**
 
-* 📂 Browse and display all audio files from the device
-* 🎶 Play, pause, skip, and repeat songs
-* 🔀 Shuffle and repeat modes
-* 🎨 Beautiful UI with album art and blurred backgrounds
-* ⏱ Display song duration and playback progress
-* 🖤 Add favorite songs (UI placeholder)
-* 🌙 Dark-themed interface for comfortable night-time listening
-* ⚡ Responsive design using Jetpack Compose
+* 📂 Browse and play all audio files stored on your device
+* ▶️ Play, pause, skip, shuffle, and repeat tracks
+* 🎨 Album art with visually appealing blurred background
+* ⏱ Shows song duration and playback progress
+* 🌙 Dark-themed interface for comfortable listening
+* ⚡ Smooth, responsive UI using Jetpack Compose
 
 ---
 
-## **Screens / Components**
+## **Screenshots**
 
-1. **Splash Screen** – Displays a splash screen on app launch.
-2. **Song List Screen** – Displays all songs on the device and handles permissions.
-3. **Player Screen** – Displays currently playing song with album art, waveform, and playback controls.
-4. **PlayerActivity / SongListActivity / SplashActivity** – Activities managing navigation and UI.
+*(Replace these placeholders with your actual app screenshots)*
 
----
-
-## **Architecture & Libraries**
-
-* **Kotlin** – Primary programming language
-* **Jetpack Compose** – For building declarative UI
-* **ExoPlayer** – Handles media playback
-* **Coil** – Loads album art images
-* **MediaStore** – Accesses device audio files
-* **Accompanist Permissions** – Handles runtime audio permissions
+![Splash_Screen](https://github.com/RenisideOfficial/Music-App/blob/main/Screenshot_20251203_000326_RenPlay.jpg?raw=true)
+![Song List](https://github.com/RenisideOfficial/Music-App/blob/main/Screenshot_20251203_000226_RenPlay.jpg?raw=true)
+![Player Screen](https://github.com/RenisideOfficial/Music-App/blob/main/Screenshot_20251203_000246_RenPlay.jpg?raw=true)
 
 ---
 
-## **Permissions**
+## **Tech Stack**
 
-The app requires runtime permission to read audio files from the device:
-
-```kotlin
-Manifest.permission.READ_MEDIA_AUDIO  // Android 13+ (TIRAMISU)
-Manifest.permission.READ_EXTERNAL_STORAGE // Android <13
-```
+* **Kotlin** – Programming language
+* **Jetpack Compose** – UI toolkit
+* **ExoPlayer** – Audio playback
+* **Coil** – Load album art images
+* **MediaStore** – Access device audio files
+* **Accompanist Permissions** – Handle runtime permissions
 
 ---
 
-## **Usage**
+## **Setup & Installation**
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/musicapp.git
+git clone https://github.com/RenisideOfficial/musicapp.git
 ```
 
-2. Open in Android Studio and let it sync Gradle.
-3. Build and run on a physical device or emulator.
-4. Grant storage permissions when prompted to allow the app to fetch songs.
-5. Browse songs and tap to play.
+2. Open the project in **Android Studio**.
+3. Let Gradle sync and build the project.
+4. Run on a physical device or emulator.
+5. Grant storage/audio permission when prompted.
 
 ---
 
@@ -72,34 +69,28 @@ git clone https://github.com/your-username/musicapp.git
 ```
 com.example.musicapp
 │
-├─ data/          # Song model & MediaStore song fetching
-├─ presentation/  # Activities and navigation
-├─ ui/theme/      # Composables for UI (PlayerScreen, SongListScreen, SplashScreen)
-├─ MainActivity.kt (or SongListActivity.kt)
+├─ data/          # Song model & MediaStore access
+├─ presentation/  # Activities & navigation
+├─ ui/theme/      # Jetpack Compose UI components
+├─ SongListActivity.kt
 └─ ...
 ```
 
 ---
 
-## **Screenshots**
-
-*(Add screenshots here when available for better presentation)*
-
----
-
 ## **Future Improvements**
 
-* Implement playlists and favorites fully
-* Support online streaming
-* Add lyrics display
+* Full playlist and favorites support
+* Online streaming integration
+* Lyrics display
+* Background playback notifications
 * Customizable themes
-* Notifications & background playback controls
 
 ---
 
 ## **License**
 
-This project is open-source under the MIT License.
+MIT License – free to use and modify
 
 ---
 
