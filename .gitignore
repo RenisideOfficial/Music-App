@@ -1,0 +1,49 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Kotlin / Java
+out/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Android build outputs
+/captures/
+/generated/
+/.navigation/
+/.cxx/
+
+# Signing keys (NEVER upload!)
+*.jks
+*.keystore
+keystore.properties
+
+# Crash/bug logs
+*.log
+
+# External Native Build
+.externalNativeBuild/
+
+# Google Services (auto-generated)
+google-services.json
+app/google-services.json
+
+# Misc
+*.apk
+*.aar
+*.aab
+
+# Gradle cache
+**/build-cache/
