@@ -3,8 +3,6 @@
 
 # 🎵 MusicApp – Kotlin Music Player
 
-![MusicApp Banner](https://user-images.githubusercontent.com/your-username/your-banner-image.png)
-
 [![Kotlin](https://img.shields.io/badge/Kotlin-007ACC?style=flat\&logo=kotlin\&logoColor=white)](https://kotlinlang.org/)
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=flat\&logo=android\&logoColor=white)](https://developer.android.com/)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat\&logo=android\&logoColor=white)](https://developer.android.com/jetpack/compose)
@@ -29,8 +27,6 @@
 ---
 
 ## **Screenshots**
-
-*(Replace these placeholders with your actual app screenshots)*
 
 ![Splash_Screen](https://github.com/RenisideOfficial/Music-App/blob/main/Screenshot_20251203_000326_RenPlay.jpg?raw=true)
 ![Song List](https://github.com/RenisideOfficial/Music-App/blob/main/Screenshot_20251203_000226_RenPlay.jpg?raw=true)
